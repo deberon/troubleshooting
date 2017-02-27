@@ -5,7 +5,7 @@ The most basic of problems. There's a web server running, but it's getting an er
 ## Startup
 `vagrant up`
 
-Access: http://localhost:4500
+Access: [http://localhost:4500](http://localhost:4500)
 
 ## Success Conditions
 
