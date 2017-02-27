@@ -2,6 +2,9 @@
 
 Different broken scenarios for you to fix! Go into each folder and type "vagrant up" to have your broke instance delivered to you. Each folder will have a README.md file with instructions on what a working state looks like.
 
+## Lessons
+1. [Broken Web Page](/tree/master/BrokenWebPage)
+
 ## Common utilities
 
 * `vi`: Text editor
