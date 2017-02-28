@@ -4,6 +4,7 @@ Different broken scenarios for you to fix! Go into each folder and type "vagrant
 
 ## Lessons
 1. [Broken Web Page](../../tree/master/BrokenWebPage)
+1. [Broken Web Page 2](../../tree/master/BrokenWebPage2)
 
 ## Common utilities
 
