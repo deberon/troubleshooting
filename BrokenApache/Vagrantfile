@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+unless Vagrant.has_plugin?("vagrant-vbguest")
+  raise 'vagrant-vbquest plugin not found. Please install using the command "vagrant plugin install vagrant-vbguest".'
+end
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+  config.vm.provision "shell", path: "provision.sh"
+  config.vm.network "forwarded_port", guest: 80, host: 4504
+end
